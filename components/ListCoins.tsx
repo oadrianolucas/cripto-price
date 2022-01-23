@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Axios from 'axios'
-export default function Coins() {
-  const [listOfCoins, setListOfCoins] = useState([])
+export default function ListCoins() {
+  const [listOfCoins, setListOfCoins] = useState<any[]>([])
   const [search, setSearch] = useState('')
 
   useEffect(() =>{

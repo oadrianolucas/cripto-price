@@ -1,4 +1,4 @@
-import Coins from "../components/Coins"
+import ListCoins from "../components/ListCoins"
 import StyleMode from "../components/StyleMode"
 import {GiMoneyStack} from "react-icons/gi"
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         </div>
       <div className="basis-1/2">
-        <Coins />
+        <ListCoins />
       </div>
       <div className="basis-1/4 p-2 mx-2">
         <StyleMode />
